@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nielsen-interview-project"
+version = "0.1.0"
+description = ""
+authors = ["Jimmy Jiang"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.4"
+sklearn = "^0.0"
+matplotlib = "^3.4.2"
+seaborn = "^0.11.1"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+ipython = "^7.24.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
