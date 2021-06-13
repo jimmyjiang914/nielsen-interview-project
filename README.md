@@ -6,6 +6,7 @@ https://python-poetry.org/
 
 1. cd into project directory: `cd nielsen-interview-project`
 2. Have poetry spin up a virtual environment: `poetry shell`
+3. Install dependencies using poetry: `poetry install`
 
 ## Project structure
 - The main body of work can be found in `EDA/EDA.ipynb`, along with comments, code, visualizations, and summary at the bottom
