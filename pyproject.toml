@@ -10,6 +10,8 @@ pandas = "^1.2.4"
 sklearn = "^0.0"
 matplotlib = "^3.4.2"
 seaborn = "^0.11.1"
+xgboost = "^1.4.2"
+statsmodels = "^0.12.2"
 
 [tool.poetry.dev-dependencies]
 jupyter = "^1.0.0"
