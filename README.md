@@ -13,7 +13,6 @@ https://python-poetry.org/
 - Python dependencies can be found in `pyproject.toml`
 
 ## Project summary
-# Summary
 
 Some initial exploration was performed on the raw census data to see if any useful insight could be extracted about the characteristics of the data, variable types, potential features and additional information about the target variable. 
 
