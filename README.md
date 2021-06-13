@@ -29,10 +29,11 @@ The data was standardized, then fed through a logistic regression model via stat
 - male_age_25_to_29_pct_rate (relatively moderate negative effect)
 - male_age_75_to_79_pct_rate (relatively moderate positive effect)
 - male_age_80_to_84_pct_rate (relatively moderate positive effect)
+
 From these results, it seems logical that a historically positive total population rate would strongly indicate a subsequent continued increase in population. What is fascinating is that the last 4 features also seem to indicate that historical increases in the younger population seem to be correlated with a decrease in subsequent total population from 2015 to 2016, whereas increases in the older population seem to correlate with increase in total population from 2015 to 2016.
 
 Finally, a logistic regression model from Sklearn was trained and tested, along with an XGBoost for comparison. Metrics observed were the accuracy, F1 score, and the AUC. In this case, the F1 score was particularly meaningful because our dataset is unbalanced, i.e. around twice as many counties saw increases from 2015 to 2016 than decreases. From our comparison, unsurprisingly XGBoost performed much better overall owing to the fact that XGBoost is generally a highly performant and versatile algorithm.
 
-Improvement can be made to the predictive power of our models by exploring additional model forms-- i.e. random forest, naive bayes, support vector machines, etc. Hyperparameter tuning (GridSearch or a tree parzen estimator) can also be implemented to optimize model performance along with k-fold cross validations to mitigate overfitting.
+Improvement can be made to the predictive power of our models by exploring additional model forms-- i.e. RF, naive bayes, SVM, etc. Hyperparameter tuning (GridSearch or a tree parzen estimator) can also be implemented to optimize model performance along with k-fold cross validations to mitigate overfitting.
 
 Further studies diving deeper into additional demographic implications of these results may surface more interesting insight about underlying mechanisms driving the propensity for population increase in a given county.
